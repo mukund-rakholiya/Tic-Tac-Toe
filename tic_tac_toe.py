@@ -23,7 +23,7 @@ def set_title(row, column):
 
 def check_winner():
     global turns, game_over
-
+ 
     turns += 1
 
     #horizontakly, check 3 rows
