@@ -9,7 +9,7 @@ def set_title(row, column):
     if board[row][column]["text"] != "":    #already taken spot
         return
     
-    board[row][column]["text"] = curr_player    #mark the player
+    board[row][column]["text"] = curr_player     #mark the player
 
     if curr_player == playerO:    #switch player
         curr_player = playerX
