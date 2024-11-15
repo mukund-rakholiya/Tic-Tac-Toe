@@ -4,7 +4,7 @@ def set_title(row, column):
     global curr_player
 
     if (game_over):
-        return
+        return 
 
     if board[row][column]["text"] != "":    #already taken spot
         return
