@@ -11,7 +11,7 @@ def set_title(row, column):
     
     board[row][column]["text"] = curr_player     #mark the player
 
-    if curr_player == playerO:    #switch player
+    if curr_player == playerO:     #switch player
         curr_player = playerX
     else:
         curr_player = playerO
